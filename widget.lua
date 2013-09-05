@@ -70,7 +70,7 @@ function pulseWidget.Update()
 end
 
 -- register mouse button actions
-pulseWidget:buttons(awful.util.table.join(
+pulseWidget.widget:buttons(awful.util.table.join(
 		awful.button({ }, 1, pulseWidget.ToggleMute),
 		awful.button({ }, 4, pulseWidget.Up),
 		awful.button({ }, 5, pulseWidget.Down)
